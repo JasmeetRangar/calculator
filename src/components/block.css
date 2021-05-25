@@ -1,0 +1,13 @@
+.block-container {
+  width: 7rem;
+  height: 2rem;
+  margin: 0.3rem;
+  border-radius: 0.6rem;
+  color: white;
+  background-color: rgb(39, 39, 39);
+  border: rgb(80, 79, 79) 1px solid;
+}
+
+.block-container:hover {
+  background-color: rgb(53, 52, 52);
+}

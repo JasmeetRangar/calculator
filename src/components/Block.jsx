@@ -1,8 +1,8 @@
-
+import "./block.css"
 export default function Block(props) {
   return (
-    <div className="block-container">
+    <button className="block-container">
       {props.label}
-    </div>
+    </button>
   )
 } 
