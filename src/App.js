@@ -1,10 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Block from './components/Block';
+import Input from './components/Input';
 
 function App() {
   return (
     <div className="app-container">
+      <Block label="AC" />
+      <Input />
       <Block label="1" />
       <Block label="2" />
       <Block label="3" />
