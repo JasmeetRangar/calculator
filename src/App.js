@@ -1,8 +1,19 @@
 import './App.css';
 import Block from './components/Block';
 import Input from './components/Input';
-
+import { useState } from "react";
 function App() {
+  const [number, setNumber] = useState("");
+  const [operator, setOperator] = useState("");
+
+  function clickNumber(num) {
+    setNumber(prev => {
+      return prev + num;
+    })
+  }
+  function clickOperator(op) {
+    setOperator(op);
+  }
   return (
     <div className="app-container">
       <Input />

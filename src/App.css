@@ -37,11 +37,12 @@
   }
 }
 .app-container {
-  width: 540px;
+  width: 35rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-left: 5%;
+  margin-right: 5%;
   margin: auto;
-
 }
